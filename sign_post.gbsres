@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "0434c6f6-14c9-4bea-80fd-4a7818fc364d",
-  "_index": 4,
-  "symbol": "actor_sign_post_4",
+  "id": "822a9491-3999-4d38-baa2-11cd379dcbb7",
+  "_index": 0,
+  "symbol": "actor_sign_post_0",
   "prefabId": "",
   "name": "Sign Post",
-  "x": 134,
-  "y": 13,
+  "x": 7,
+  "y": 25,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -20,12 +20,32 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "3b39bf7d-5a47-4b97-bfd6-ef1759ec738b",
+      "id": "7ba26d3c-c1ca-46c8-a4ae-ed0a431b1d03",
       "command": "EVENT_TEXT",
       "args": {
-        "text": [
-          "This way to\nSample Town!"
-        ]
+        "text": "Try to get the ice\nblock to the mark."
+      }
+    },
+    {
+      "id": "1cf687c1-e1fe-4e89-a7ef-9ddc6412ef4f",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "If you get stuck,\nI'll reset it!"
+      }
+    },
+    {
+      "id": "a50d16e9-2660-4fde-94c2-825e6fe799ee",
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "27de6d44-f7c0-48df-a952-2c87471bbfd4",
+        "x": {
+          "type": "number",
+          "value": 24
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        }
       }
     }
   ],
